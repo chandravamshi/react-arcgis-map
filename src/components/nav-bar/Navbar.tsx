@@ -4,7 +4,7 @@ import { routes } from '../../routes/routesConfig';
 function Navbar() {
   return (
     <nav>
-      <ul>
+      <ul style={{ listStyleType: 'none', padding: 0, display: 'flex', flexDirection: 'row', columnGap: '16px' }}>
         {routes.map((route: IRoute, index: number) => (
           <li key={index}>
             <Link to={route.path}>{route.label}</Link>
