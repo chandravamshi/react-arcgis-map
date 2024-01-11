@@ -1,5 +1,6 @@
 /* CSS url as a string */
 @import "https://js.arcgis.com/4.28/@arcgis/core/assets/esri/themes/light/main.css";
+@import "@esri/calcite-components/dist/calcite/calcite.css";
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

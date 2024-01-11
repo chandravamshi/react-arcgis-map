@@ -11,12 +11,15 @@
   },
   "dependencies": {
     "@arcgis/core": "^4.28.10",
+    "@arcgis/map-components": "^4.28.0-beta.40",
     "@types/react-router-dom": "^5.3.3",
+    "dotenv": "^16.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
+    "@types/node": "^20.11.0",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
