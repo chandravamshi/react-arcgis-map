@@ -9,17 +9,21 @@ import esriConfig from '@arcgis/core/config';
 esriConfig.apiKey = import.meta.env.VITE_ARCGIS_API_KEY;
 
 function App() {
+
+
     return ( 
-      <>
-      <Navbar/>
+      <div style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+     <Navbar/>
       <Routes>
         {routes.map(({ path, element:Component}) => (
           <Route key={path} path={path} element={<Component/>} />
         ))}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      </>
+      </div>
     )
 }
 
 export default App
+
+// div style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}

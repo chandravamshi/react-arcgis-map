@@ -50,7 +50,7 @@ function Webmap() {
 
   
   return (<>
-    <div className="mapDiv" ref={mapDiv}></div>
+    <div className="mapDiv"  ref={mapDiv}></div>
     </> );
 
     
